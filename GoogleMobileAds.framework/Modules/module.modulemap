@@ -1,0 +1,11 @@
+framework module GoogleMobileAds {
+  umbrella header "GoogleMobileAds.h"
+
+  export *
+  module * { export * }
+}
+
+module GoogleMobileAds.Swift {
+    header "GoogleMobileAds-Swift.h"
+    requires objc
+}
